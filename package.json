@@ -1,11 +1,11 @@
 {
-  "name": "marmiton-api",
+  "name": "recipes-scrappers",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node src/index.ts"
+    "start": "ts-node -r tsconfig-paths/register src/index.ts"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +24,7 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.1.1",
+    "tsconfig-paths": "^4.2.0",
     "typescript": "^5.4.2",
     "typescript-eslint": "^7.1.1"
   }
